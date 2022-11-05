@@ -1,0 +1,8 @@
+.facilities-container {
+	width: 100%;
+}
+
+.facilities-sub-container {
+	display: flex;
+	justify-content: space-between;
+}
