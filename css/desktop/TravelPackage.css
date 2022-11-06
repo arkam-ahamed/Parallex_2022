@@ -1,0 +1,40 @@
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #e1dcda;
+}
+
+.card {
+	background-color: white;
+	width: 300px;
+}
+
+.card p {
+	padding-left: 5px;
+}
+
+.icons {
+	display: flex;
+}
+
+.icons p {
+	padding: 0 4px;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+
+.img-responsive {
+	width: 280px;
+	padding: 10px 0 0 10px;
+}
+
+.elipsis.text {
+	width: 150px;
+	height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

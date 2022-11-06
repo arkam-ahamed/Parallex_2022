@@ -1,0 +1,49 @@
+@media only screen and (max-width: 740px) {
+	/* For Mobile: */
+	.img-responsive {
+		width: 80px;
+	}
+
+	.sub-container {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 3%;
+		margin-bottom: 8%;
+	}
+
+	.green-box {
+		background-color: #447043;
+		width: 100%;
+		height: 150px;
+	}
+
+	.img-responsive.card {
+		width: 140px;
+	}
+
+	.content-box {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.from {
+		font-size: 15px;
+	}
+
+	.price {
+		font-size: 30px;
+	}
+
+	.night {
+		font-size: 12px;
+	}
+
+	h3 {
+		font-size: 8px;
+	}
+
+	p {
+		font-size: 7px;
+	}
+}

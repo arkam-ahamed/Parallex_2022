@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1180px) {
+	/* For Ipad: */
+	.img-responsive {
+		width: 280px;
+	}
+
+	.img-responsive.card {
+		width: 510px;
+	}
+}
