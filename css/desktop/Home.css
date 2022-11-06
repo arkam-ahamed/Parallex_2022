@@ -45,6 +45,55 @@ nav ul li a {
 
 }
 
+.banner{
+    background:#0082e6;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.banner img{
+    height: 300px;
+    
+}
+
+.banner .banner-content{
+    color: #447043;
+    font-size: 60;
+}
+
+.explorer-container{
+    background: brown;
+    height: 350px;
+    display: inline;
+    padding: 40px;
+}
+
+
+
+
+
+.stay-container{
+    background:yellow;
+    height: 350px;
+    padding: 40px;
+    
+}
+
+.stay-container .head-stay-container{
+    color: black;
+}
+
+.connect-container{
+    background: #0082e6;
+    height: 350px;
+    padding: 40px;
+}
+
+.connect-container .head-connect-container{
+    color: black;
+}
 a.active , a:hover{
     background: #447043;
     transition: .5s;
@@ -65,6 +114,9 @@ a.active , a:hover{
 
 }
 
+.stay-image{
+    display: flex;
+}
 
 .explorer-container{
     display: flex;
@@ -83,9 +135,6 @@ footer{
     font-family: "Open Sans";
     padding-top: 40px;
     color: black;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .footer-content{
