@@ -32,6 +32,15 @@ nav ul li a {
 	border-radius: 10px;
 }
 
+.text {
+	width: 50%;
+	padding-left: 25px;
+}
+
+h3 {
+	padding-left: 25px;
+}
+
 a.active,
 a:hover {
 	background: #447043;
@@ -53,6 +62,102 @@ a:hover {
 	display: none;
 }
 
+.banner {
+	background: #447043;
+	color: white;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.banner img {
+	height: 300px;
+}
+
+.banner .banner-content {
+	font-size: 60;
+}
+
+.explorer-container {
+	height: 350px;
+	padding: 40px;
+}
+
+.head-connect-container {
+	padding: 20px;
+	margin-right: 10px;
+	margin-top: 5%;
+}
+
+.stay-container {
+	height: 350px;
+	padding: 40px;
+	display: flex;
+}
+
+.img-responsive {
+	width: 200px;
+	padding: 10px;
+}
+.img-responsive-end {
+	width: 300px;
+	padding: 10px;
+}
+
+.stay-container .head-stay-container {
+	color: black;
+}
+
+.connect-container {
+	height: 350px;
+	padding: 40px;
+}
+
+.connect-container .head-connect-container {
+	color: black;
+}
+
+.connect-container .image-connect {
+	display: flex;
+}
+a.active,
+a:hover {
+	background: #447043;
+	transition: 0.5s;
+}
+
+.riverbank {
+	width: 500px;
+}
+
+.checkbtn {
+	font-size: 30px;
+	color: #447043;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check {
+	display: none;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 4%;
+	margin-left: 2%;
+	width: 70%;
+}
+
+.explorer-heading {
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
 .explorer-container {
 	display: flex;
 }
@@ -62,11 +167,10 @@ a:hover {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	background-color: white;
 	height: auto;
-	width: 100vw;
-	font-family: "Open Sans";
+	width: 100%;
 	padding-top: 40px;
 	color: black;
 	bottom: 0;
